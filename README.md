@@ -30,7 +30,7 @@ This repository contains the individual thesis contribution of **Mallepalli Srav
 - Files: Layer01.mat to Layer10.mat (10 layers, 2065 frames per layer)
 - Used for: Training and evaluating all ATP-1 and ATP-3 methods
 
-### PODFAM Dataset (AP&T Industrial Data)
+### PODFAM Dataset
 - Source: Aconity MIDI laser powder bed fusion machine (real two-colour pyrometer)
 - Files: 10 point cloud scan files (000.280.pcd to 010.010.pcd)
 - Used for: Validating classical methods on real industrial pyrometer data
