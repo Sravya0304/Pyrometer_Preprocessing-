@@ -4,7 +4,7 @@
 **Author: Mallepalli Sravya Reddy**
 **Programme: Master of Engineering Science with Specialization in AI and Automation**
 **Industry Collaborator: AP&T (Advanced Pressure Technology)**
-**Supervisors: Amit Kumar Mishra, Rashid Ali**
+**Supervisors: Amit Kumar Mishra**
 **Examiner: Fredrik Sikström**
 
 ---
