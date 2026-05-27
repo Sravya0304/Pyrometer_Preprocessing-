@@ -1,0 +1,5 @@
+Method,Type,Noise_C,Reduction_%
+CNN Denoiser,ML,164.02,66.7
+LSTM Denoiser,ML,154.39,68.7
+Autoencoder Den.,ML,73.71,85.1
+BiLSTM Denoiser,ML,144.75,70.7

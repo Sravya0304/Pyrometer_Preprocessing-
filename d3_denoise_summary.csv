@@ -1,0 +1,9 @@
+Method,Category,Noise_C,Reduction_%
+Raw Baseline,Baseline,487.3,0.0
+Moving Average (k=7),Classical,151.14,69.0
+Median Filter (k=7),Classical,189.91,61.0
+Savitzky-Golay,Classical,201.86,58.6
+Gaussian Filter,Classical,105.25,78.4
+Kalman Filter,Classical,39.64,91.9
+CNN Denoiser,ML,154.45,68.3
+LSTM Denoiser,ML,153.54,68.5

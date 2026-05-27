@@ -1,0 +1,7 @@
+Method,Type,CR,RMSE_C,ATP3_met
+Raw Baseline,Baseline,1.0x,0.00,—
+Downsampling 2x,Classical,2.0x,2.73,No
+SVD rank=10,Classical,1.1x,19.30,No
+Wavelet Haar 10%,Classical,5.0x,6.74,Yes
+PCA (n=3),ML,10.7x,28.15,Yes
+Autoencoder (bn=3),ML,10.7x,320.08,Yes

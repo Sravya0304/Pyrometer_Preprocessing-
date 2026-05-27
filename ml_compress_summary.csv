@@ -1,0 +1,5 @@
+Method,Type,CR,RMSE_C,ATP3_met
+Downsampling 2×,Classical,2.0×,2.73,No
+Wavelet Haar 10%,Classical,5.0×,6.74,Yes ✓
+PCA (n=3),ML,10.7×,28.15,Yes ✓
+Autoencoder (bn=3),ML,10.7×,76.99,Yes ✓

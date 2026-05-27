@@ -1,0 +1,12 @@
+Method,Type,Noise_C,Reduction_%,Stage,CR,RMSE_C,ATP3_met
+Raw Baseline,Baseline,493.18,0.0,ATP-1 Denoising,,,
+Moving Average (k=7),Classical,157.24,68.1,ATP-1 Denoising,,,
+Median Filter (k=7),Classical,189.75,61.5,ATP-1 Denoising,,,
+Savitzky-Golay,Classical,212.86,56.8,ATP-1 Denoising,,,
+Gaussian (sigma=3),Classical,110.22,77.7,ATP-1 Denoising,,,
+Kalman Filter,Classical,41.01,91.7,ATP-1 Denoising,,,
+Raw Baseline,Baseline,,,ATP-3 Compression,1.0,0.0,—
+Downsampling 2×,Classical,,,ATP-3 Compression,2.0,2.73,No
+SVD rank=10,Classical,,,ATP-3 Compression,1.1,19.3,No
+Wavelet Haar 10%,Classical,,,ATP-3 Compression,5.0,6.74,Yes ✓
+PCA (n=3),ML,,,ATP-3 Compression,10.7,28.15,Yes ✓
